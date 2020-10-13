@@ -9,4 +9,4 @@ Site para encontrar orfanatos de sua cidade, onde podemos visitar as crianças l
 ![](./assets/model.png)
 
 # Realização
-Matheus Willock - [Linkedin](https://linkedin.com/in/mathueswillock) 
+Matheus Willock - [Linkedin](https://linkedin.com/in/matheuswillock) 
