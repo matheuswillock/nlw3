@@ -12,9 +12,39 @@
     }
 }
 
+@keyframes right {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
 .animate-up {
     animation-name: up;
     animation-duration: 300ms;
+    animation-fill-mode: backwards;
+}
+
+.animate-right {
+    animation-name: right;
+    animation-duration: 450ms;
+}
+
+.animate-appear {
+    animation-name: appear;
+    animation-duration: 500ms;
     animation-fill-mode: backwards;
 }
 
@@ -37,4 +67,3 @@ main h1 {
 .visit a {
     animation-delay: 250ms;
 }
-
